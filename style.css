@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+/* header swction */
+
+.header-menu {
+	background-color: #22C3A3;
+	height: 73px;
+	
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left h2 {
+	line-height: 69px;
+	color: #fff;
+}
+.header-right {
+	float: right;
+	width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li {
+    display: inline-block;
+}
+.header-right ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 10px;
+	line-height: 69px;
+	color: #fff;
+}
+.header-right ul li a:hover {}
+
+.banar-img {
+	background-image: url("./230561064_207084384767991_3626007920671037594_n.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+      height: 600px;
+	background-position: right;
+}
+.content {
+	position: relative;
+    color: #fff;
+}
+.content h1 {
+	position: absolute;
+	left: 304px;
+	top: 235px;
+	font-size: 45px;
+}
+.content b {
+	display: block;
+	position: absolute;
+	top: 304px;
+	left: 349px;
+	font-size: 20px;
+	color: #fff;
+}
+.content a {
+	position: absolute;
+	top: 362px;
+	left: 464px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 10px 23px;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* searvice section */
+
+.searvice {
+	text-align: center;
+	height: 430px;
+	
+}
+.about h2 {
+	margin-top: 49px;
+	font-size: 35px;
+	color: #312e2ecc;
+}
+
+.about p {
+	margin-top: 15px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	color: #7b7b7b;
+}
+.all-searvice {
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.all-searvice h2 {
+	margin-top: 18px;
+	color: #463f3f;
+}
+.all-searvice i {
+	font-size: 33px;
+	color: #0DBF9B;
+	margin-top: 69px;
+}
+.all-searvice p {
+	margin-top: 5px;
+	color: #7b7b7b;
+}
+
+
+.web-design{
+	float: left;
+	width: 25%;
+	
+}
+
+.graphic-design{
+	float: left;
+	width: 25%;
+	
+}
+
+.app-development{
+	float: left;
+	width: 25%;
+	
+}
+
+.digital-marketing{
+	float: left;
+	width: 25%;
+	
+}
+
+hr{
+	color:#0ABE9A;
+}
+
+.about-us {
+	margin-top: 66px;
+}
+.about-us h2 {
+	font-size: 35px;
+	color: #312e2ecc;
+}
+.about-us p {
+	margin-top: 20px;
+font-family: 'Open Sans', sans-serif;
+color: #7b7b7b;
+}
+
+/* about-section */
+
+.about-section {
+	margin-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.img img {
+	float: left;
+	height: 315px;
+	padding: 42px;
+	margin-top: -51px;
+}
+
+.about-option p {
+	font-size: 15px;
+	color: #7b7b7b;
+}
+.about-option h3{
+	color: #7b7b7b;
+}
+.about-option p{
+	font-size: 15px;
+}
+
+
+/* contact-us section */
+.contact-us {
+	background-color: #f4f4f4;
+	margin-top: 104px;
+	height: 399px;
+}
+.contact {
+	display: block;
+}
+.contact h2 {
+	display: inline-block;
+	margin-top: 40px;
+	font-size: 35px;
+	color: #312e2ecc;
+}
+.contact p {
+	margin-top: 25px;
+	font-family: 'Open Sans', sans-serif;
+	color: #7b7b7b;
+}
+
+.contact-me {
+	margin-top: 92px;
+	margin-left: 147px;
+	text-align: center;
+	font-size: 13px;
+
+
+}
+
+
+.location{
+	float: left;
+	width: 33.2%;
+    
+}
+.sms{
+	float: left;
+	width: 33.2%;
+}
+.phone{
+	float: left;
+	width: 33.2%;
+}
+.contact-me h3 {
+	width: 220px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #7b7b7b;
+}
+.contact-me i {
+	font-size: 25px;
+	margin-left: -129px;
+	display: inline-block;
+	color: #0DBF9B;
+	width: 6px;
+	font-size: 35px;
+	height: 47px;
+}
+
+.fooder{
+	background-color: #0DBF9B;
+	height: 40px;
+}
+.fooder ul{
+	text-align: center;
+}
+.fooder ul li{
+	display: inline-block;
+}
+.fooder ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 19px;
+	transition: .5s;
+}
+.fooder ul li a:hover {
+	color: #c4d0ce;
+}
+
+.fooder-two {
+	background-color: #0d0505;
+	height: 41px;
+	color: #6c6262;
+	text-align: center;
+	line-height: 38px;
+}
